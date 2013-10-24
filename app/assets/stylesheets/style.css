@@ -23,6 +23,33 @@ a:visited {
 	text-decoration: none;
 }
 
+/*Buton*/
+
+.btn {
+	margin:20px 0;
+	padding: 15px 30px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f68f67;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-Moz-border-radius: 25px;
+}
+.btn:link {
+	color: #ffffff;
+}
+.btn:hover {
+	background-color: #df6c3f;
+	color: #ffffff;
+}
+.btn:active {
+	background-color: #bde2df;
+	color: #ffffff;
+}
+.btn:visited {
+	color: #ffffff;
+}
+
 
 
 

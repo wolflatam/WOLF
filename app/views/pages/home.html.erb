@@ -18,8 +18,11 @@
 					<li data-slide="1">Ólvidate de la lata de ir a Comprar</li>
 					<li data-slide="2">Parallax Scrolling</li>
 					<li data-slide="3">Grid</li>
-					<li data-slide="4">F.A.Q.</li>
-					
+					<li data-slide="4">HOLA</li>
+
+
+
+								
 				</ul>
 			</div>
 
@@ -46,7 +49,12 @@
 					<a href="https://twitter.com/WolfLatam" target="_blank"><img src="assets/twitter.png" style="width: 40px; height: 40px;"></a>
 					<a href="https://facebook.com/WOLFLATAM" target="_blank"><img src="assets/facebook.png" style="width: 40px; height: 40px;"></a>
 					<a href="https://youtube.com/WOLFLATAM" target="_blank"><img src="assets/youtube.png" style="width: 40px; height: 40px;"></a> 
-					<button type="button" type="submit" align-row="center">Empieza Ya!</button>
+					<a class="btn" target="_blank"></a>
+					<%= link_to "sign_up", new_user_registration_path %>
+					<%= link_to "sign_in", new_user_session_path %>
+
+					<%= link_to "sign_out", destroy_user_session_path %>
+
 				<p>				
 				</p>	
 			</div>

@@ -12,3 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.easing.1.3
+//= require jquery.stellar.min
+//= require script
+//= require waypoints.min
